@@ -1,0 +1,46 @@
+
+# Credenciales y variables de entorno
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Entornos virtuales de Python
+.venv/
+venv/
+**/.venv/
+**/venv/
+
+# Caché y archivos compilados de Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Dependencias de Node
+node_modules/
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Respaldos locales: conservarlos en el equipo
+*.bak
+*.bak-*
+*.wos-backup
+*~
+
+# Base de datos local con datos de ejecución
+backend/app/data/*.db
+backend/app/data/*.sqlite
+backend/app/data/*.sqlite3
+
+# Archivos auxiliares de Windows
+*:Zone.Identifier
+
+# Respaldos locales adicionales
+*.bak*
